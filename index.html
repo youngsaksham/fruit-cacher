@@ -1,0 +1,43 @@
+<!--
+In this game you need to move the basket right of left across the screen
+using left and right arrow buttons trying to catch as many fruit
+as you can. The fruit are continuously falling from above. Different types of fruit give you
+different score. The order is this (from highest to lowest scoring:)
+melon -> pineapple -> orange -> apple -> banana. The score also depends on the speed
+the fruit is falling at. The faster it is falling, the more score you get.
+The game keeps tracks of your total score, the number of fruit you missed, and how many you caught.
+Upon missing 10 pieces of fruit, the game is over. You can restart the game by pressing ENTER
+on the game over screen. The game also shows the hi score which updates at the game over screen
+if you succeeded to beat it.
+
+The game also uses music and a couple of sound effects.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fruit Catcher</title>
+        <meta charset="UTF-8">
+    </head>
+    <script src="fruitCatcher.js"></script>
+
+<style type="text/css">
+		canvas	
+		{
+            border: 1px solid black;
+            position: absolute;
+            background-color: transparent;
+		}
+
+	</style>
+    
+    <script type="text/javascript"></script>   
+     
+    
+    </script>
+    
+    </head>
+    <body style="margin-left:15%; margin-top:3%;">
+        <canvas id="backgroundCanvas" width="1024" height="650"></canvas>
+        <canvas id="canvas" width="1024" height="650"></canvas>
+    </body>
+</html>
